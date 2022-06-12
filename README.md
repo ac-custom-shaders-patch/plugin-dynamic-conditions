@@ -1,6 +1,6 @@
 # Dynamic conditions plugin for acServer
 
-Plugin for acServer adding dynamic conditions online. Written in C#, matches functions of live conditions in Content Manager. Based on (acplugins by Minolin)[https://github.com/minolin/acplugins].
+Plugin for acServer adding dynamic conditions online. Written in C#, matches functions of live conditions in Content Manager. Based on [acplugins by Minolin](https://github.com/minolin/acplugins).
 
 # Usage:
 
