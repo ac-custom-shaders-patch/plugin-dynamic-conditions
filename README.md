@@ -18,7 +18,7 @@ plugin.serverCapacity=2
 
 # Weather settings
 weather.useV2=1
-weather.apiKey=
+weather.apiKey=  # OpenWeather API key
 weather.trackLatitude=51.367222
 weather.trackLongitude=0.27511
 weather.trackLengthKm=1.929
