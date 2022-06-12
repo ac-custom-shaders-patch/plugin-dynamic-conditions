@@ -44,3 +44,5 @@ weather.trackGripTransfer=80
 CM can automatically export your settings in this form, or you can set them manually. To check the available settings, look at [ProgramParams.cs](ProgramParams.cs).
 
 After config is ready, simply launch the program and pass params as a command line argument. Alternatively you can append config to the executable: merge executable file with config file, add integer 0xBEE5 and an integer with the size of config file.
+
+You can also provide multiple configs and app would start multiple weather simulations for different servers, but assuming how tiny it is, might be easier to just run a separate plugin for each server.
