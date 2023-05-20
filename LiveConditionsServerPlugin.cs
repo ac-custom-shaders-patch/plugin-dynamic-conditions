@@ -202,7 +202,7 @@ namespace AcTools.ServerPlugin.DynamicConditions {
 
                 if (PluginManager != null) {
                     foreach (var info in PluginManager.GetDriverInfos()) {
-                        if (info?.IsConnected == true) {
+                        if (info?.IsConnected == true && !float.IsNaN(info.CurrentSpeed) && info.CurrentSpeed > 0) {
                             var drivenDistanceKm = info.CurrentSpeed * UpdateRainPeriod.TotalHours;
                             _drivenLapsEstimate += drivenDistanceKm / _lapLengthKm;
                         }
